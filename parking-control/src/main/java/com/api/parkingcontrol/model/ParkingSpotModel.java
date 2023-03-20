@@ -1,4 +1,4 @@
-package com.api.parkingcontrol.models;
+package com.api.parkingcontrol.model;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
