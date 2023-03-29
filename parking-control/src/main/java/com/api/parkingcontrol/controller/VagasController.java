@@ -3,7 +3,6 @@ package com.api.parkingcontrol.controller;
 import com.api.parkingcontrol.dtos.VagasDto;
 import com.api.parkingcontrol.model.Vagas;
 import com.api.parkingcontrol.services.VagasServices;
-
 import jakarta.validation.Valid;
 
 import org.springframework.beans.BeanUtils;

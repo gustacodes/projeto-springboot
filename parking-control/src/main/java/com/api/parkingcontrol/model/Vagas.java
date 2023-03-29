@@ -28,6 +28,17 @@ public class Vagas implements Serializable {
     @Column(nullable = false)
     private LocalDateTime dataEntrada;
     
+    public Vagas() {
+
+    }
+
+    public Vagas(String vaga, String placaDoVeiculo, String cliente) {
+        this.vaga = vaga;
+        this.placaDoVeiculo = placaDoVeiculo;
+        this.cliente = cliente;
+    }
+
+
 
     public UUID getId() {
         return id;
